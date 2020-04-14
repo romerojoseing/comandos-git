@@ -300,6 +300,8 @@ Borrar un archivo del repositorio
 	git rm <archivo> 
 ```
 
+<br>
+
 ## Fork
 
 Descargar remote de un fork
@@ -312,6 +314,8 @@ Merge con master de un fork
 	git fetch upstream
 	git merge upstream/master
 ```
+
+<br>
 
 ## Tecnologías Usadas
 
