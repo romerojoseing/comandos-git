@@ -94,52 +94,60 @@ Añadimos todos los archivos dentro de un directorio y de una extensión especif
 
 Cargar en el HEAD los cambios realizados
 ```
-	git commit -m "Texto que identifique por que se hizo el commit"
+	git commit -m "cambios realizados"
 ```
 Agregar y Cargar en el HEAD los cambios realizados
 ```
-	git commit -a -m "Texto que identifique por que se hizo el commit"
+	git commit -a -m "cambios realizados"
 ```
 De haber conflictos los muestra
 ```
 	git commit -a 
 ```
-Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. Se puede especificar un nuevo mensaje
-```
-	git commit --amend -m "Texto que identifique por que se hizo el commit"
-```
-## GIT PUSH
 
+<br>
+
+## Git PUSH
+
+Subimos todos los cambios
+```
+	git push
+```
 Subimos al repositorio
 ```
 	git push <origien> <branch>
 ```
-Subimos un tag
-```
-	git push --tags
-```
-## GIT LOG
+
+<br>
+
+## Git LOG
 
 Muestra los logs de los commits
 ```
 	git log
 ```
-Muestras los cambios en los commits
+Muestras los cambios detallados en los commits
 ```
 	git log --oneline --stat
 ```
-Muestra graficos de los commits
+Muestra los nombres de los commits
 ```
 	git log --oneline --graph
 ```
-## GIT DIFF
+
+<br>
+
+## Git DIFF
 
 Muestra los cambios realizados a un archivo
 ```
 	git diff
 	git diff --staged
 ```
-## GIT HEAD
+
+<br>
+
+## Git HEAD
 
 Saca un archivo del commit
 ```
@@ -162,7 +170,10 @@ Rollback merge/commit
 	git log
 	git reset --hard <commit_sha>
 ```
-## GIT REMOTE
+
+<br>
+
+## Git REMOTE
 
 Agregar repositorio remoto
 ```
@@ -188,7 +199,10 @@ Limpiar todos los branches eliminados
 ```
 	git remote prune origin 
 ```
-## GIT BRANCH
+
+<br>
+
+## Git BRANCH
 
 Crea un branch
 ```
@@ -206,7 +220,10 @@ Elimina sin preguntar
 ```
 	git branch -D <nameBranch>
 ```
-## GIT TAG
+
+<br>
+
+## Git TAG
 
 Muestra una lista de todos los tags
 ```
@@ -216,7 +233,10 @@ Crea un nuevo tags
 ```
 	git tag -a <verison> - m "esta es la versión x"
 ```
-## GIT REBASE
+
+<br>
+
+## Git REBASE
 
 Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al día con el master sin afectar al mismo
 
@@ -242,6 +262,9 @@ Para hacer un rebase a un branch en especifico
 ```	
 	git rebase <nameBranch>
 ```
+
+<br>
+
 ## OTROS COMANDOS
 
 Lista un estado actual del repositorio con lista de archivos modificados o agregados
