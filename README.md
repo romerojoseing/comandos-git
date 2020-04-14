@@ -8,33 +8,11 @@ Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libe
 
 # Curso Básico de Git y GitHub
 
-## Sección 1: Git 
-
-Para usar cualquier proyecto desde tu ordenador siempre debes tener en cuenta los requisitos mínimos para ejecutar este en el mejor ambiente posible, y para eso es bueno prestar atención a las recomendaciones.
-
-### 1.	¿Qué es Git?
+## ¿Qué es Git?
 
 Git es un sistema de control de versiones más popular del mundo, quiere decir que es el sistema que controla y administra las distintas versiones de un proyecto o programa. Esto para que cuando el proyecto a pasar el tiempo valla creciendo podamos conocer todos los cambios que este ha tenido. 
 
 Puedes navegar por cada línea de código que has redactado, volviendo o revertir el código a una versión anterior que has desarrollado en el pasado. Git fue por el mismo desarrollador de Linux ya que él quería administrar todos los cambios que iba realizando al crear este sistema operativo.
-
-<br>
-
-### 2.	Estados de Git
-
-Working Directory: es la sección donde vamos a trabajar con los archivos.
-
-```
-$ git git add
-```
-
-Staging Area: es el estado donde se van a preparar todos los archivos para el guardado.
-
-```
-$ git git commit
-```
-
-Repository: Subir o actualizar los estados en el repositorio.
 
 <br>
 
