@@ -26,7 +26,7 @@ Configurar Nombre de usuario
 ```
 Configurar Email
 ```
-  git config --global user.email "romerojoseing@gmail.com"
+	git config --global user.email "romerojoseing@gmail.com"
 ```
 
 <br>
