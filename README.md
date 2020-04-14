@@ -18,7 +18,7 @@ Puedes navegar por cada línea de código que has redactado, volviendo o reverti
 
 <br>
 
-## Comandos de Git
+### Comandos de Git
 
 Configurar Nombre de usuario
 ```
@@ -31,7 +31,7 @@ Configurar Email
 
 <br>
 
-## Iniciando repositorio
+### Iniciando repositorio
 
 Iniciamos Git en la carpeta del proyecto
 ```
@@ -56,7 +56,7 @@ Subimos el proyecto al repositorio remoto
 
 <br>
 
-## Git CLONE
+### Git CLONE
 
 Clonamos el repositorio de github, gitlab o bitbucket
 ```
@@ -65,7 +65,7 @@ Clonamos el repositorio de github, gitlab o bitbucket
 
 <br>
 
-## Git ADD
+### Git ADD
 
 Añadimos todos los archivos para el commit
 ```
@@ -90,7 +90,7 @@ Añadimos todos los archivos dentro de un directorio y de una extensión especif
 
 <br>
 
-## Git COMMIT
+### Git COMMIT
 
 Cargar en el HEAD los cambios realizados
 ```
@@ -107,7 +107,7 @@ De haber conflictos los muestra
 
 <br>
 
-## Git PUSH
+### Git PUSH
 
 Subimos todos los cambios
 ```
@@ -120,7 +120,7 @@ Subimos al repositorio
 
 <br>
 
-## Git LOG
+### Git LOG
 
 Muestra los logs de los commits
 ```
@@ -137,7 +137,7 @@ Muestra los nombres de los commits
 
 <br>
 
-## Git DIFF
+### Git DIFF
 
 Muestra los cambios realizados a un archivo
 ```
@@ -147,7 +147,7 @@ Muestra los cambios realizados a un archivo
 
 <br>
 
-## Git HEAD
+### Git HEAD
 
 Saca un archivo del commit
 ```
@@ -173,7 +173,7 @@ Rollback merge/commit
 
 <br>
 
-## Git REMOTE
+### Git REMOTE
 
 Agregar repositorio remoto
 ```
@@ -202,7 +202,7 @@ Limpiar todos los branches eliminados
 
 <br>
 
-## Git BRANCH
+### Git BRANCH
 
 Crea un branch
 ```
@@ -223,7 +223,7 @@ Elimina sin preguntar
 
 <br>
 
-## Git TAG
+### Git TAG
 
 Muestra una lista de todos los tags
 ```
@@ -236,7 +236,7 @@ Crea un nuevo tags
 
 <br>
 
-## Git REBASE
+### Git REBASE
 
 Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al día con el master sin afectar al mismo
 
@@ -265,7 +265,7 @@ Para hacer un rebase a un branch en especifico
 
 <br>
 
-## OTROS COMANDOS
+### OTROS COMANDOS
 
 Lista un estado actual del repositorio con lista de archivos modificados o agregados
 ```
@@ -302,7 +302,7 @@ Borrar un archivo del repositorio
 
 <br>
 
-## Fork
+### Fork
 
 Descargar remote de un fork
 ```
