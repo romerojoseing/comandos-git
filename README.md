@@ -25,7 +25,7 @@ Configurar Nombre de usuario
 	git config --global user.name "romerojoseing"
 ```
 Configurar Email
-```	
+```
   git config --global user.email "romerojoseing@gmail.com"
 ```
 
@@ -315,7 +315,7 @@ Merge con master de un fork
 	git merge upstream/master
 ```
 
-<br>
+<br><br>
 
 ## Tecnologías Usadas
 
