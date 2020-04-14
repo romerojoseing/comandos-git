@@ -1,3 +1,3 @@
 # curso-git
 
-proyecto de prueba con git
+nuevo proyecto de prueba con git
