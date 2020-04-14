@@ -8,13 +8,9 @@ Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libe
 
 # Curso Básico de Git y GitHub
 
-<br><br>
-
 ## Sección 1: Git 
 
 Para usar cualquier proyecto desde tu ordenador siempre debes tener en cuenta los requisitos mínimos para ejecutar este en el mejor ambiente posible, y para eso es bueno prestar atención a las recomendaciones.
-
-<br>
 
 ### 1.	¿Qué es Git?
 
