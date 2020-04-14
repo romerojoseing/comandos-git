@@ -12,34 +12,32 @@ Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libe
 
 ## ¿Qué es Git?
 
-Git es un sistema de control de versiones más popular del mundo, quiere decir que es el sistema que controla y administra las distintas versiones de un proyecto o programa. Esto para que cuando el proyecto a pasar el tiempo valla creciendo podamos conocer todos los cambios que este ha tenido. 
+Git es el sistema de control de versiones más popular del mundo, quiere decir que es el sistema que controla y administra las distintas versiones de un proyecto o programa. 
 
-Puedes navegar por cada línea de código que has redactado, volviendo o revertir el código a una versión anterior que has desarrollado en el pasado. Git fue por el mismo desarrollador de Linux ya que él quería administrar todos los cambios que iba realizando al crear este sistema operativo.
+Puedes navegar por cada línea de código que has redactado, volviendo o revertir el código a una versión anterior que has desarrollado en el pasado. 
 
 <br>
 
 ## Comandos de Git
 
-Configurar Nombre que salen en los commits
+Configurar Nombre de usuario
 ```
-	git config --global user.name "dasdo"
+	git config --global user.name "romerojoseing"
 ```
 Configurar Email
 ```	
-	git config --global user.email dasdo1@gmail.com
+  git config --global user.email "romerojoseing@gmail.com"
 ```
-Marco de colores para los comando
-```
-	git config --global color.ui true
-```
+
+<br>
 
 ## Iniciando repositorio
 
-Iniciamos GIT en la carpeta donde esta el proyecto
+Iniciamos Git en la carpeta del proyecto
 ```
 	git init
 ```
-Clonamos el repositorio de github o bitbucket
+Clonamos el repositorio de github, gitlab o bitbucket
 ```
 	git clone <url>
 ```
@@ -49,27 +47,25 @@ Añadimos todos los archivos para el commit
 ```
 Hacemos el primer commit
 ```
-	git commit -m "Texto que identifique por que se hizo el commit"
+	git commit -m "nombre del commit"
 ```
-subimos al repositorio
+Subimos el proyecto al repositorio remoto
 ```
 	git push origin master
 ```
 
-## GIT CLONE
+<br>
 
+## Git CLONE
 
-Clonamos el repositorio de github o bitbucket
+Clonamos el repositorio de github, gitlab o bitbucket
 ```
 	git clone <url>
 ```
-Clonamos el repositorio de github o bitbucket ?????
-```
-	git clone <url> git-demo
-```
 
-## GIT ADD
+<br>
 
+## Git ADD
 
 Añadimos todos los archivos para el commit
 ```
@@ -79,23 +75,22 @@ Añadimos el archivo para el commit
 ```
 	git add <archivo>
 ```
-Añadimos todos los archivos para el commit omitiendo los nuevos
-```
-	git add --all 
-```
 Añadimos todos los archivos con la extensión especificada
 ```
 	git add *.txt
-```
-Añadimos todos los archivos dentro de un directorio y de una extensión especifica
-```
-	git add docs/*.txt
 ```
 Añadimos todos los archivos dentro de un directorios
 ```
 	git add docs/
 ```
-## GIT COMMIT
+Añadimos todos los archivos dentro de un directorio y de una extensión especifica
+```
+	git add docs/*.txt
+```
+
+<br>
+
+## Git COMMIT
 
 Cargar en el HEAD los cambios realizados
 ```
