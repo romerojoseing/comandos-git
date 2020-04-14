@@ -6,7 +6,7 @@ Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libe
 
 <br>
 
-# Curso Básico de Git y GitHub
+# Comandos de Git
 
 <br>
 
@@ -18,7 +18,7 @@ Puedes navegar por cada línea de código que has redactado, volviendo o reverti
 
 <br>
 
-## Comandos de Git
+## Configurar Git
 
 Configurar Nombre de usuario
 ```
