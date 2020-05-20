@@ -1,16 +1,8 @@
-<p align="center"><img src="https://github.com/romerojoseing/archivos/blob/master/img/logov.png?raw=true" width="150"></p>
-
-<p align="center">
-Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libertad, siempre teniendo el mayor respeto por los autores que desarrollaron el proyecto.
-</p>
-
-<br>
-
 # Comandos de Git
 
 <br>
 
-## ¿Qué es Git?
+## ¿Qué es Git? 👀
 
 Git es el sistema de control de versiones más popular del mundo, quiere decir que es el sistema que controla y administra las distintas versiones de un proyecto o programa. 
 
@@ -18,220 +10,220 @@ Puedes navegar por cada línea de código que has redactado, volviendo o reverti
 
 <br>
 
-## Configurar Git
+## Configurar Git ⚙
 
 Configurar Nombre de usuario
-```
-	git config --global user.name "romerojoseing"
+```ssh
+	$ git config --global user.name "romerojoseing"
 ```
 Configurar Email
-```
-	git config --global user.email "romerojoseing@gmail.com"
+```ssh
+	$ git config --global user.email "romerojoseing@gmail.com"
 ```
 
 <br>
 
-## Iniciando repositorio
+## Iniciando repositorio ▶
 
 Iniciamos Git en la carpeta del proyecto
-```
-	git init
+```ssh
+	$ git init
 ```
 Clonamos el repositorio de github, gitlab o bitbucket
-```
-	git clone <url>
+```ssh
+	$ git clone <url>
 ```
 Añadimos todos los archivos para el commit
-```
-	git add .
+```ssh
+	$ git add .
 ```
 Hacemos el primer commit
-```
-	git commit -m "nombre del commit"
+```ssh
+	$ git commit -m "nombre del commit"
 ```
 Subimos el proyecto al repositorio remoto
-```
-	git push origin master
+```ssh
+	$ git push origin master
 ```
 
 <br>
 
-## Git CLONE
+## Git CLONE 🎞
 
 Clonamos el repositorio de github, gitlab o bitbucket
-```
-	git clone <url>
+```ssh
+	$ git clone <url>
 ```
 
 <br>
 
-## Git ADD
+## Git ADD ✔
 
 Añadimos todos los archivos para el commit
-```
-	git add .
+```ssh
+	$ git add .
 ```
 Añadimos el archivo para el commit
-```
-	git add <archivo>
+```ssh
+	$ git add <archivo>
 ```
 Añadimos todos los archivos con la extensión especificada
-```
-	git add *.txt
+```ssh
+	$ git add *.txt
 ```
 Añadimos todos los archivos dentro de un directorios
-```
-	git add docs/
+```ssh
+	$ git add docs/
 ```
 Añadimos todos los archivos dentro de un directorio y de una extensión especifica
-```
-	git add docs/*.txt
+```ssh
+	$ git add docs/*.txt
 ```
 
 <br>
 
-## Git COMMIT
+## Git COMMIT 🎫
 
 Cargar en el HEAD los cambios realizados
-```
-	git commit -m "cambios realizados"
+```ssh
+	$ git commit -m "cambios realizados"
 ```
 Agregar y Cargar en el HEAD los cambios realizados
-```
-	git commit -a -m "cambios realizados"
+```ssh
+	$ git commit -a -m "cambios realizados"
 ```
 De haber conflictos los muestra
-```
-	git commit -a 
+```ssh
+	$ git commit -a 
 ```
 
 <br>
 
-## Git PUSH
+## Git PUSH ⬆
 
 Subimos todos los cambios
-```
-	git push
+```ssh
+	$ git push
 ```
 Subimos al repositorio
-```
-	git push <origien> <branch>
+```ssh
+	$ git push <origien> <branch>
 ```
 
 <br>
 
-## Git LOG
+## Git LOG 💾
 
 Muestra los logs de los commits
-```
-	git log
+```ssh
+	$ git log
 ```
 Muestras los cambios detallados en los commits
-```
-	git log --oneline --stat
+```ssh
+	$ git log --oneline --stat
 ```
 Muestra los nombres de los commits
-```
-	git log --oneline --graph
+```ssh
+	$ git log --oneline --graph
 ```
 
 <br>
 
-## Git DIFF
+## Git DIFF 💱
 
 Muestra los cambios realizados a un archivo
-```
-	git diff
-	git diff --staged
+```ssh
+	$ git diff
+	$ git diff --staged
 ```
 
 <br>
 
-## Git HEAD
+## Git HEAD ❌
 
 Saca un archivo del commit
-```
-	git reset HEAD <archivo>
+```ssh
+	$ git reset HEAD <archivo>
 ```
 Devuelve el ultimo commit que se hizo y pone los cambios en staging
-```
-	git reset --soft HEAD^
+```ssh
+	$ git reset --soft HEAD^
 ```
 Devuelve el ultimo commit y todos los cambios
-```
-	git reset --hard HEAD^
+```ssh
+	$ git reset --hard HEAD^
 ```
 Devuelve los 2 ultimo commit y todos los cambios
-```
-	git reset --hard HEAD^^
+```ssh
+	$ git reset --hard HEAD^^
 ```
 Rollback merge/commit
-```
-	git log
-	git reset --hard <commit_sha>
+```ssh
+	$ git log
+	$ git reset --hard <commit_sha>
 ```
 
 <br>
 
-## Git REMOTE
+## Git REMOTE 📟
 
 Agregar repositorio remoto
-```
-	git remote add origin <url>
+```ssh
+	$ git remote add origin <url>
 ```
 Cambiar de remote
-```
-	git remote set-url origin <url>
+```ssh
+	$ git remote set-url origin <url>
 ```
 Remover repositorio
-```
-	git remote rm <name/origin>
+```ssh
+	$ git remote rm <name/origin>
 ```
 Muestra lista repositorios
-```
-	git remote -v
+```ssh
+	$ git remote -v
 ```
 Muestra los branches remotos
-```	
-	git remote show origin
+```ssh
+	$ git remote show origin
 ```
 Limpiar todos los branches eliminados
-```
-	git remote prune origin 
+```ssh
+	$ git remote prune origin 
 ```
 
 <br>
 
-## Git BRANCH
+## Git BRANCH 🌱
 
 Crea un branch
-```
-	git branch <nameBranch>
+```ssh
+	$ git branch <nameBranch>
 ```
 Lista los branches
-```
-	git branch
+```ssh
+	$ git branch
 ```
 Comando -d elimina el branch y lo une al master
-```
-	git branch -d <nameBranch>
+```ssh
+	$ git branch -d <nameBranch>
 ```
 Elimina sin preguntar
-```
-	git branch -D <nameBranch>
+```ssh
+	$ git branch -D <nameBranch>
 ```
 
 <br>
 
-## Git TAG
+## Git TAG 📌
 
 Muestra una lista de todos los tags
-```
-	git tag
+```ssh
+	$ git tag
 ```
 Crea un nuevo tags
-```
-	git tag -a <verison> - m "esta es la versión x"
+```ssh
+	$ git tag -a <verison> - m "esta es la versión x"
 ```
 
 <br>
@@ -241,63 +233,63 @@ Crea un nuevo tags
 Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al día con el master sin afectar al mismo
 
 Une el branch actual con el mastar, esto no se puede ver como un merge
-```
-	git rebase
+```ssh
+	$ git rebase
 ```
 Cuando se produce un conflicto no das las siguientes opciones:
 
 cuando resolvemos los conflictos --continue continua la secuencia del rebase donde se pauso
-```	
-	git rebase --continue 
+```ssh
+	$ git rebase --continue 
 ```
 Omite el conflicto y sigue su camino
-```
-	git rebase --skip
+```ssh
+	$ git rebase --skip
 ```
 Devuelve todo al principio del rebase
-```
-	git reabse --abort
+```ssh
+	$ git reabse --abort
 ```
 Para hacer un rebase a un branch en especifico
-```	
-	git rebase <nameBranch>
+```ssh
+	$ git rebase <nameBranch>
 ```
 
 <br>
 
-## OTROS COMANDOS
+## OTROS COMANDOS 🕹
 
 Lista un estado actual del repositorio con lista de archivos modificados o agregados
-```
-	git status
+```ssh
+	$ git status
 ```
 Quita del HEAD un archivo y le pone el estado de no trabajado
-```
-	git checkout -- <file>
+```ssh
+	$ git checkout -- <file>
 ```
 Crea un branch en base a uno online
-```
-	git checkout -b newlocalbranchname origin/branch-name
+```ssh
+	$ git checkout -b newlocalbranchname origin/branch-name
 ```
 Busca los cambios nuevos y actualiza el repositorio
-```
-	git pull origin <nameBranch>
+```ssh
+	$ git pull origin <nameBranch>
 ```
 Cambiar de branch
-```
-	git checkout <nameBranch/tagname>
+```ssh
+	$ git checkout <nameBranch/tagname>
 ```
 Une el branch actual con el especificado
-```
-	git merge <nameBranch>
+```ssh
+	$ git merge <nameBranch>
 ```
 Verifica cambios en el repositorio online con el local
-```
-	git fetch
+```ssh
+	$ git fetch
 ```
 Borrar un archivo del repositorio
-```
-	git rm <archivo> 
+```ssh
+	$ git rm <archivo> 
 ```
 
 <br>
@@ -305,38 +297,38 @@ Borrar un archivo del repositorio
 ## Fork
 
 Descargar remote de un fork
-```
-	git remote add upstream <url>
+```ssh
+	$ git remote add upstream <url>
 ```
 
 Merge con master de un fork
-```
-	git fetch upstream
-	git merge upstream/master
+```ssh
+	$ git fetch upstream
+	$ git merge upstream/master
 ```
 
 <br><br>
 
-## Tecnologías Usadas
+## Construido con 🛠️
 
-- Git
-- GitHub
+_Para el desarrollo de este proyecto se utilizaron las siguientes tecnologías:_
 
-<br><br>
+* [Git](https://git-scm.com/) - Gestión y control de versiones.
+* [GitHub](https://github.com) - Almacenamiento de repositorios en la nube.
 
-## Autor
+<br>
 
-<p align="center"><img src="https://github.com/romerojoseing/archivos/blob/master/img/logoh.png?raw=true" width="200"></p>
+## Autor ✒️
 
-<p align="center">
-  Si te gusto el proyecto sígueme y dame apoyo para seguir creando más contenido.
-</p>
+_Si te gusta lo que hago, visita mi web y comparte mi contenido, también puedes seguirme en mis redes para estar al tanto de nuevas publicaciones y proyectos interesantes que estaré desarrollando._
 
-<p align="center">
-  <a target="_blank" href="https://romerojose.com/"><img src="https://github.com/romerojoseing/archivos/blob/master/img/web.png?raw=true" height="20"></a> - 
-  <a target="_blank" href="https://www.linkedin.com/in/romerojoseing/"><img src="https://github.com/romerojoseing/archivos/blob/master/img/linkedin.png?raw=true" height="20"></a> - 
-  <a target="_blank" href="https://github.com/romerojoseing"><img src="https://github.com/romerojoseing/archivos/blob/master/img/github.png?raw=true" height="20"></a> - 
-  <a target="_blank" href="https://www.instagram.com/romerojoseing/"><img src="https://github.com/romerojoseing/archivos/blob/master/img/instagram.png?raw=true" height="20"></a> - 
-  <a target="_blank" href="https://www.facebook.com/romerojoseing"><img src="https://github.com/romerojoseing/archivos/blob/master/img/facebook.png?raw=true" height="20"></a> - 
-  <a target="_blank" href="https://twitter.com/romerojoseing"><img src="https://github.com/romerojoseing/archivos/blob/master/img/twitter.png?raw=true" height="20"></a>
-</p>
+Diseñado con ❤️ por [Romero José](https://romerojose.com/)
+
+### Redes Sociales
+
+* **GitHub** - *Repositorios de mis últimos proyectos* - [romerojoseing](https://github.com/romerojoseing)
+* **CodePen** - *Mini proyectos y pruebas interesantes* - [romerojoseing](https://codepen.io/romerojoseing)
+* **LinkedIn** - *Perfil desarrollador profesional* - [romerojoseing](https://www.linkedin.com/in/romerojoseing/)
+* **Instagram** - *Documentando mi viaje* - [romerojoseing](https://www.instagram.com/romerojoseing/)
+* **Facebook** - *Publicaciones y contenido promocional* - [romerojoseing](https://www.facebook.com/romerojoseing)
+* **Twitter** - *Comentarios random y más* - [romerojoseing](https://twitter.com/romerojoseing)
